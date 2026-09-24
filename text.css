@@ -1,0 +1,155 @@
+/* .btn{
+    height: 50px;
+    width: 100px;
+    border: 5px solid black;
+    cursor: pointer;
+    color: tomato;
+    background-color: rgb(16, 212, 212);
+}
+ .text{
+    cursor: text; background-color: hotpink;
+    color: gold;
+    height: 50px;
+    width: 100px;
+    border: 5px solid black;
+
+ }
+
+ .box{
+    cursor: move me;
+    background-color: brown;
+    color: aquamarine;
+    height: 50px;
+    width: 100px;
+    border: 5px solid black;
+ }
+
+
+
+ .wait{
+   cursor: wait;
+    background-color: hotpink;
+    color: aquamarine;
+    height: 50px;
+    width: 100px;
+    border: 5px solid blue;
+ }
+
+ .not-allowed{
+  cursor: not-allowed;
+    background-color: greenyellow;
+    color: aquamarine;
+    height: 50px;
+    width: 100px;
+    border: 5px solid navy;
+ }
+
+ .move{
+  cursor: move;
+    background-color: blueviolet;
+    color: aquamarine;
+    height: 50px;
+    width: 100px;
+    border: 5px solid turquoise;
+ } 
+ 
+ .help{
+ cursor: help;
+    background-color: yellow;
+    color: aquamarine;
+    height: 50px;
+    width: 100px;
+    border: 5px solid red;
+ }
+
+ .wait,
+ .box,
+ .btn,
+ .help,
+ .not-allowed,
+ .text,
+ .move,
+ .cross{
+    margin-bottom: 10px;
+ } */
+
+ /* .opacity{
+    width: 200px;
+    height: 100px;
+    color: black;
+    background-color: aqua;
+     /* text-align: center;  */
+     /* justify-self: center;  */
+      /* justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    border: 5px solid red;
+    opacity: 1;
+ }
+ .a{
+    text-shadow: 3px 3px 5px hotpink;
+ }  */
+
+   .box{
+      position: relative;
+      height: 200px;
+      width: 200px;
+      background-color: darkkhaki;
+      color: black;
+      border: 5px solid rgb(167, 9, 88);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      border-radius: 50%;
+      animation: unlimitedSpin 4s linear infinite;
+
+      /* transform: translate(50px,30px) rotate(45deg) scale(1.2); */
+   }
+   @keyframes unlimitedSpin {
+      0%{
+         left: 0px;
+         top: 0px;
+       transform: translate(50px,30px) rotate(0deg) scale(1.2);
+       background-color: yellow;
+      }
+      20%{
+         left: 100px;
+         top:-100px;
+         background-color: blueviolet;
+         color: chartreuse;
+      }
+      40%{
+         left: 200px;
+         top: 100px;
+         background-color: brown;
+         border: 5px solid black;
+         color: blue;
+      }
+       60%{
+         left: 300px;
+         top:-100px;
+         background-color: blueviolet;
+         color: chartreuse;
+      }
+      80%{
+         left: 400px;
+         top: -100px;
+         background-color: black;
+         color: aqua;
+
+      }
+      100%{
+         left: 0px;
+         top: 0px;
+      transform: translate(50px,30px) rotate(360deg) scale(1.2);
+      background-color: blue;
+      color: hotpink;
+
+      }
+   }
+
+   /* .box{
+      animation: unlimitedspin 4s linear infinite;
+   } */

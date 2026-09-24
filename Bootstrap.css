@@ -1,0 +1,12 @@
+.container {
+    border: 5px solid red;
+    height: 20vh;
+    background-color: yellow;
+}
+
+.box {
+    border: 1px solid black;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+}

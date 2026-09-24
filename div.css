@@ -1,0 +1,53 @@
+/* .circle{
+    height: 200px;
+    width: 200px;
+    border: 5px solid red;
+    background-color: blueviolet;
+    position: relative;
+    
+    animation-name: pinky;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+/*anmation pinky 10s 5 altrnate;*/
+/* @keyframes pinky{
+    from{
+        left: 0px;
+        background-color: deeppink;
+    }
+    to{
+        left: 300px;
+        background-color: cyan;
+    }
+} */ 
+
+/* .box{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    position: relative;
+}
+p{
+    color: black;
+    background-color: bisque;
+    font-style: italic;
+} */
+
+/* p{
+    color: navy;
+    background-color: aqua;
+    font-size: 2rem;
+    text-align: center;
+}
+h1{
+    text-align: center;
+} */
+ .box{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    border: 2px green;
+ }
